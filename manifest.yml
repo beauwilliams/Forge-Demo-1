@@ -1,0 +1,14 @@
+modules:
+  macro:
+    - key: forge-demo-1-hello-world
+      function: main
+      title: Forge app for Atlassian
+      description: Inserts Hello world!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/80f9714c-a03e-462b-b1bc-1a90fdc2d9c3
+permissions:
+  scopes:
+    - read:confluence-content.summary
